@@ -30,6 +30,7 @@ requirements:
     - zlib                 # [not win]
     - llvm-openmp          # [osx]
     - libgomp              # [linux]
+    - gnuconfig            # [unix]
   host:
     - m2w64-gcc-libs           # [win]
     - m2w64-zlib               # [win]
