@@ -28,7 +28,7 @@ requirements:
     - libtool              # [not win]
     - make                 # [not win]
     - zlib                 # [not win]
-    - llvm-openmp          # [osx]
+    #- llvm-openmp          # [osx]
     - libgomp              # [linux]
     - gnuconfig            # [unix]
   host:
