@@ -28,14 +28,15 @@ requirements:
     - libtool              # [not win]
     - make                 # [not win]
     - zlib                 # [not win]
-    - llvm-openmp          # [osx]
+    #- llvm-openmp          # [osx]
     - libgomp              # [linux]
+    - gnuconfig            # [unix]
   host:
     - m2w64-gcc-libs           # [win]
     - m2w64-zlib               # [win]
     - m2w64-libwinpthread-git  # [win]
     - zlib                     # [not win]
-    - llvm-openmp              # [osx]
+    #- llvm-openmp              # [osx]
     - libgomp                  # [linux]
   run:
     - m2w64-gcc-libs           # [win]
